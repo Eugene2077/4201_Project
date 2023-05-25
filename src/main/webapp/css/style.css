@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+
+body {
+	background-color: #222;
+	padding: 5px;
+	margin: 1em;
+	color: #bbb;
+}
+
+
+.header {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    text-align: right;
+    color: #4cc;
+    background-color: #222;
+}
+
+header a, header a.visited {
+	color: white;
+}
+
+
+Form {
+	padding: 10px;
+	border: 1px solid #752099;
+	margin: 5px;
+	color: #e83;
+}
+
+input[type=text] {
+  padding-left: 3px;
+  color: #2ee;
+}
+
+input[type=password] {
+  padding-left: 3px;
+  color: #2ee;
+}
+
+
+#title {
+	color: #38c7bc;
+}
+
+.errorMsg {
+	color: red;
+}
+
+.edit-entry {
+	color: red;
+}
+
+
